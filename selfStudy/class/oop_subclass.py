@@ -13,6 +13,7 @@ class SchoolMember:
         """
         print("Name:\"{}\", Age:\"{}\"".format(self.name, self.age))
 
+
 class Teacher(SchoolMember):
     """
     Represent a teacher
@@ -25,6 +26,7 @@ class Teacher(SchoolMember):
     def tell(self):
         SchoolMember.tell(self)
         print("Salary: \"{}\"".format(self.salary))
+
 
 class Student(SchoolMember):
     """
